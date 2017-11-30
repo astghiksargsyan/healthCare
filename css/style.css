@@ -1,0 +1,543 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+input, select, option {
+  padding: 0;
+  margin: 0;
+}
+
+input:placeholder {
+  color: red;
+}
+
+/*header*/
+.header {
+  height: 237px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url(../img/header-bg.png);
+}
+
+.header-content {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.header-content-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-div {
+  padding-right: 15px;
+
+}
+
+.logo-part {
+  display: flex;
+}
+
+.phone {
+  display: flex;
+  color: #599cd4;
+  font-size: 14pt;
+}
+
+.font {
+  font-size: 45px;
+  padding: 0 12px 0 15px;
+  border-left: 1px solid #ccc;
+}
+
+.search-form {
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+  margin-right: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.search {
+  width: 274px;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  color: #2f75ac;
+  background-color: #e8eef4;
+  background-image: url('../img/search-icon.png');
+  background-position: 228px 14px;
+  background-repeat: no-repeat;
+  padding: 13px 35px 12px 18px;
+}
+
+.contact-button {
+  height: 50px;
+  width: 150px;
+  background-color: #0173c0;
+  color: #fff;
+  border: none;
+  margin-right: 15px;
+
+}
+
+.find-us-div {
+  display: flex;
+}
+
+.social-div {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  color: #006cb7;
+  padding-left: 15px;
+  text-decoration: none;
+
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 21px;
+  padding: 3% 0 1% 0;
+  justify-content: space-between;
+}
+
+.header-menu > li {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.header-menu > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.line {
+  width: 99%;
+  color: #9e804f;
+}
+
+.phone-number-class {
+  display: flex;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  /*background-image: url("../img/banner.jpg");*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 84%;
+}
+
+.h1 {
+  font-size: 85px;
+  text-align: center;
+  padding: 1% 20%;
+}
+
+.h3 {
+  color: #0179c8;
+  font-size: 24px;
+}
+
+.find-care-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  padding: 3% 1%;
+}
+
+.find-care {
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.looking-for, .choose-to {
+  display: flex;
+  width: 49%;
+  flex-wrap: wrap;
+}
+
+.find-div-input {
+  height: 57px;
+  background-color: #e1f1ff;
+}
+
+.banner-text {
+  font-size: 24px;
+  text-align: center;
+  padding: 1% 25%;
+}
+
+.start-button {
+  background-color: #006cb7;
+  border: none;
+  height: 55px;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+}
+
+.custom-input, .select, .custom-label {
+  background-color: #e1f1ff;
+  border: none;
+  color: #4a4e51;
+  height: 55px;
+  padding: 12px 36px;
+}
+
+.custom-input:focus, .select:focus {
+  background-color: #e1f1ff;
+  border: none;
+}
+
+.child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.grow {
+  flex-grow: 2;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/*main-menu*/
+.menu-div {
+  display: flex;
+  justify-content: center;
+  background-color: #0176c4;
+  width: 100%;
+  position: relative;
+}
+
+.main-menu {
+  display: flex;
+  width: 60%;
+  height: 100px;
+  margin: 0;
+  padding: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-menu > li > a {
+  color: #fff;
+
+}
+
+.main-menu > li {
+  list-style-type: none;
+  border-right: 1px solid #ccc;
+  padding-right: 3%;
+}
+
+.main-menu > li:last-child {
+  border-right: none;
+}
+
+.arrow {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 80px;
+  right: 50%;
+  background-color: #fff;
+}
+
+/*info div*/
+.info-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.info-image {
+  flex-shrink: 1;
+  position: relative;
+}
+
+.info-content {
+  flex: 2 200px;
+  padding-right: 2%;
+}
+
+.underline {
+  border-bottom: 2px solid #d4295c;
+  color: #005699;
+  cursor: pointer;
+}
+
+.underline > a {
+  text-decoration: none;
+  color: #005699;
+}
+
+.underline > a:link {
+  text-decoration: none;
+  color: #005699;
+}
+
+.underline > a:visited {
+  text-decoration: none;
+  color: #005699;
+}
+
+.underline > a:active {
+  text-decoration: none;
+  color: #005699;
+}
+
+.underline > a:hover {
+  text-decoration: none;
+  color: #005699;
+}
+
+.info-header {
+  color: #005699;
+  font-size: 64px;
+}
+
+.blue-color-text {
+  color: #75aad3;
+  font-size: 18px;
+}
+
+.watch-video-div {
+  width: 30%;
+  height: 50px;
+  background-color: #005699;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  left: 17%;
+  bottom: 0;
+
+}
+
+.watch-video-div > a {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*main-content-div*/
+.width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-content-div {
+  border: 1px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-content-retirement {
+  background-image: url("../img/main-content-bg.png");
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+  background-repeat: no-repeat;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.retirement-image {
+  position: relative;
+}
+
+.main-content-nursing-house {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3%;
+}
+
+.retirement, .nursing-house {
+  display: flex;
+  align-items: center;
+}
+
+.nursing-house {
+  padding-top: 3%;
+}
+
+.angle-left, .angle-right, .or {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.angle-left {
+  top: 45%;
+  left: -18px;
+}
+
+.angle-right {
+  top: 45%;
+  right: -18px;
+}
+
+.or {
+  bottom: -30px;
+  right: 50%;
+}
+
+.image {
+  border: 2px solid #ccc;
+}
+
+.two-links {
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.nursing-house-image {
+  padding-right: 6%;
+}
+
+.closest-location-div {
+  display: flex;
+}
+
+.closest-location-div-content {
+  padding-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../img/map-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.closest-location-div-menu {
+  padding: 7% 19% 8% 0;
+}
+
+.closest-menu {
+  padding-left: 0;
+}
+
+.closest-menu > li {
+  display: block;
+  width: 100%;
+  padding: 1%;
+  border-bottom: 1px solid #ccc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closest-location-div-content {
+  border-bottom: 14px solid #be2f37;
+  position: relative;
+}
+
+.closest-location-div-map {
+  width: 50%;
+}
+
+.location-div-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-by-code {
+  background-color: #0780ca;
+}
+
+.news-and-updates {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.h4 {
+  font-size: 48px;
+}
+
+.news-and-updates-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-update-blog {
+  flex: 1 1 250px;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px #e2e2e2;
+}
+
+.news-update-blog-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.news-update-blog-img {
+  position: relative;
+}
+
+.news-update-link {
+  position: absolute;
+  bottom: 3px;
+  left: 31%;
+}
+
+.news-update-blog-content {
+  padding: 5%;
+  flex-grow: 2;
+}
